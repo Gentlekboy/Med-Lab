@@ -1,0 +1,119 @@
+@media screen and (max-width: 991.5px){
+    .hero h3{
+        font-size: 2rem!important;
+    }
+    
+    .hero h1{
+        font-size: 3.5rem;
+    }
+    
+    .hero p{
+        font-size: 1.1rem;
+    }
+
+    .difServices,
+    .difSpecialists{
+        grid-template-columns: 1fr;
+    }
+
+    .difDepartment{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .difServices div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .difServices div>img{
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .serviceList img,
+    .serviceList p{
+        margin: 0!important;
+    }
+
+    .serviceList p{
+        margin-left: 20px!important;
+    }
+
+    .serviceList div{
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .faq{
+        background-image: none;
+    }
+    
+    .faqContainer{
+        width: 100%;
+    }
+
+    .appointment .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    form h2{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 575.5px){
+    .hero h3{
+        font-size: 1.5rem!important;
+    }
+    
+    .hero h1{
+        font-size: 2.5rem;
+    }
+    
+    .hero p{
+        font-size: 1rem;
+    }
+
+    blockquote,
+    cite{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 405px){
+    .hero{
+        padding: 0 20px;
+    }
+
+    .aa{
+        text-align: left;
+    }
+
+    .difDepartment{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .serviceList p{
+        margin-left: 10px!important;
+    }
+
+    .difServices>:nth-child(1),
+    .difServices>:nth-child(2),
+    .difServices>:nth-child(3){
+        padding: 30px 10px 20px 10px;
+    }
+
+    blockquote,
+    cite{
+        width: 90%;
+    }
+
+    footer p{
+        margin-top: 10px;
+        text-align: left;
+    }
+}
