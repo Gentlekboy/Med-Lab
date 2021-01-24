@@ -13,6 +13,10 @@ header{
     background-size: cover;
 }
 
+.navbar-nav{
+    margin-left: auto;
+}
+
 .hero{
     height: 100vh;
 }
