@@ -97,6 +97,10 @@
         grid-template-rows: repeat(6, 1fr);
     }
 
+    .departments>.container>p{
+        font-size: 1.125rem;
+    }
+
     .serviceList p{
         margin-left: 10px!important;
     }
@@ -105,6 +109,10 @@
     .difServices>:nth-child(2),
     .difServices>:nth-child(3){
         padding: 30px 10px 20px 10px;
+    }
+
+    .accordion-button{
+        font-size: 1.1rem!important;
     }
 
     blockquote,
