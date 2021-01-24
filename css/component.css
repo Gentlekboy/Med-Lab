@@ -6,6 +6,15 @@ button{
     text-decoration: none;
     background: #0052FF;
     border: none;
+    transition: 0.8s;
+}
+
+.hero a:hover,
+.faq a:hover,
+form button:hover{
+    background-color: #091291;
+    color: #ffffff;
+    transition: 0.8s;
 }
 
 .accordion-button{
